@@ -13,20 +13,12 @@
 }
 
 canvas {
-    box-sizing: border-box;
+    
     background-color: black;
-    width: 600px;
-    height: 600px;
+    
 }
 
-.cobra {
 
-    box-sizing: border-box;
-    background-color: rgb(255, 0, 0);
-    width: 20px;
-    height: 20px;
-
-}
 
 .uigame {
     background-color: rgb(19, 18, 27);
