@@ -27,3 +27,26 @@
     height: 20px;
 
 }
+
+.uigame {
+    background-color: rgb(19, 18, 27);
+    width: 600px;
+    height: 40px;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+body {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        background-color: #f3f3f3;
+        flex-direction: column;
+  }
+
