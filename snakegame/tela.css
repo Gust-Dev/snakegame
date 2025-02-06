@@ -1,0 +1,29 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        height: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+.tela {
+    display: flex;
+    justify-content: center;
+}
+
+.canva {
+    box-sizing: border-box;
+    background-color: black;
+    width: 600px;
+    height: 600px;
+}
+
+.cobra {
+
+    box-sizing: border-box;
+    background-color: rgb(255, 0, 0);
+    width: 20px;
+    height: 20px;
+
+}
