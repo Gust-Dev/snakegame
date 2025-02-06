@@ -1,6 +1,5 @@
 # snakegame
 
-
 Um jogo clássico do Snake, onde o jogador controla uma cobra que cresce ao comer enquanto evita colidir com as bordas do cenário e com seu próprio corpo.
 
 🎮 Como Jogar ?
