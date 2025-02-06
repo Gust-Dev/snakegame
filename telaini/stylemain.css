@@ -1,0 +1,18 @@
+.login-form {
+    background-image: radial-gradient(circle at 87.5% 12.5%, #b3db48 0, #9cd74f 10%, #82d157 20%, #66c95d 30%, #47be62 40%, #1db166 50%, #00a468 60%, #00986b 70%, #008e6e 80%, #008671 90%, #007f75 100%);
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    background-size: cover;
+}
+
+.init-div {
+    background-color: rgb(244, 244, 244);
+    padding: 50px;
+    border-radius: 10px;
+    display: grid;
+    justify-items: center;
+}
