@@ -4,6 +4,7 @@
 
 //inicio -- input do teclado - captura de input
 
+
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 
@@ -59,11 +60,50 @@ const moveSnake = () => {
 
     snake.shift()
 }
-setInterval(()=>{
+
+
+const gameLoop = () => {
     ctx.clearRect(0,0, 600, 600)
     drawSnake()
     moveSnake()
-}, 300)
+
+    setTimeout (()=> {
+        gameLoop()
+    }, 300)
+}
+
+// responsavel pela movimentção atraves das teclas
+
+const keyboard = () => {
+    
+
+
+}
+
+gameLoop()
+
+
+//  Isso aqui embaixo não ta pronto era teste pra aprender
+
+//document.addEventListener("keydown", event => {
+//    if(event.key.startsWith("Arrow")) {
+//
+//        switch(event.key) {
+//            case "ArrowUp":
+//
+//        }
+//
+//
+//
+//    }
+//
+//});
+
+
+
+
+
+
 
 // A cobra é um array com posições e cada quadrado é um elemento -
 // Seguindo essa logica, entenda que para ela se movimentar remover o ultimo bloco do array
