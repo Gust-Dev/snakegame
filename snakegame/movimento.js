@@ -15,7 +15,7 @@ const snake = [
   
 ];  //posição da cobra no mapa
 
-let direction = "rigth"
+let direction = "up"
 
 const drawSnake = () => {
     ctx.fillStyle = "#ddd"
@@ -31,12 +31,32 @@ const drawSnake = () => {
 }
 
 const moveSnake = () => {
+
+    if (!direction) return
+
     const head = snake[snake.length - 1]
 
     if (direction == "rigth") {
         snake.push({x:head.x+size, y:head.y})
-        
+
     }
+
+    if (direction == "left") {
+        snake.push({x:head.x-size, y:head.y})
+
+    }
+
+    if (direction == "up") {
+        snake.push({x:head.x, y:head.y-size})
+
+    }
+
+    if (direction == "down") {
+        snake.push({x:head.x, y:head.y+size})
+
+    }
+
+
     snake.shift()
 }
 setInterval(()=>{
